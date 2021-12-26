@@ -45,19 +45,7 @@ box-shadow: 7px 2px 20px rgba(19, 3, 238, 0.781), -2px -2px 20px rgba(255, 0, 0,
     }
 }
 
-@media screen and (max-width:500px){
-    .scroll{
-        /* background-color: rgb(224, 34, 34); */
-        display:inline-block;
-        width:fit-content;
-       /* height: fit-content; */
-        position:fixed;
-        /* right:-90px; */
-        top:28rem;
-        left:28rem;
-    
-    }
-}
+
 
 @media screen and (max-width:1040px){
     .scroll{
