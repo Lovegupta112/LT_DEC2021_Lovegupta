@@ -106,3 +106,75 @@ margin-top: 4rem;
     padding:2px 3px 2px 3px;
     border-radius: 10px;
 }
+
+@media screen and ( min-width:501px) and (max-width:768px){
+    .servicescontact{
+        background-color: rgb(0, 202, 10);
+        border: 2px solid rgb(118, 1, 214);
+        display: flex;
+        width:100%;
+        justify-content:space-around;
+        padding: 15px 1px 15px 18px;
+        align-items: center;
+        height:fit-content;
+        position: relative;
+    /* object-fit:fill; */
+    }
+    .formdiv{
+        background-color: rgb(230, 229, 229);
+        width:17em;
+        padding: 15px 10px 15px 10px;
+        /* align-items: center; */
+        text-align: center;
+        height:fit-content;
+        border-radius: 20px;
+        
+        margin:7em 0.1em 2em 1em;
+        box-shadow: 5px 5px 30px crimson,-5px -5px 30px rgb(177, 220, 20);
+    }
+    .formdiv form{
+        width: 100rem;
+        width: fit-content;
+        /* background-color: rgb(194, 54, 171); */
+        margin: auto;
+        height: fit-content;
+        text-align: center;
+        padding: 20px 10px 15px 10px;
+        }
+
+        .servicescontact .formimage img{
+            /* background-color: rgb(190, 27, 27); */
+            height:15em;
+            width:17em;
+            margin-top: 3rem;
+            margin-right:-0.1em;
+            }
+            
+            .servicescontact .contactus{
+                background-color: rgb(224, 33, 33);
+                display: inline-block;
+                /* margin-top:-13em; */
+                /* margin-left: -36rem; */
+                font-size: 3rem;
+                padding:2px 3px 2px 3px;
+                border-radius: 10px;
+                position: absolute;
+                /* bottom:0px; */
+                left:2.8em;
+                top:6.66em;
+            }
+}
+
+@media screen and ( min-width:769px) and (max-width:895px){
+    .servicescontact .contactus{
+        background-color: rgb(224, 33, 33);
+        display: inline-block;
+        margin-top:-18rem;
+        margin-right: -30rem;
+        font-size: 3rem;
+        padding:2px 3px 2px 3px;
+        border-radius: 10px;
+    }
+    
+
+}
