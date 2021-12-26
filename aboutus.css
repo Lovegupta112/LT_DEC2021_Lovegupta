@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: linear-gradient(50deg ,rgb(248, 16, 240,0.4),rgb(217, 253, 12,0.7)); */
+    /* background-image:url('pic/aboutus/galleryall.jpeg'); */
+    background-color: rgb(236, 240, 227);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   background-blend-mode:multiply;
+}
+
+.heading{
+    background-color:darkorange;
+    text-align: center;
+    height: 60px;
+    /* align-items: center; */
+    padding-top:8px;
+    /* padding-bottom: ; */
+    text-shadow: 2px 3px 10px rgb(255, 0, 0);
+}
+.heading h1{
+    text-align: center;
+}
+
+.aboutus1{
+    /* background-color: rgb(69, 146, 95); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.aboutus1 .imageaboutus1 img{
+    background-color: rgb(114, 75, 75);
+    width:34rem;
+    height: 16rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 2px 4px 30px rgb(19, 15, 7),-2px -4px 30px rgb(0, 0, 0);
+    border:2px solid rgb(5, 3, 5);
+}
+
+.aboutus1 .aboutus1content{
+
+    background-color: rgb(211, 208, 165);
+    width:26rem;
+    height: 13rem;
+    text-align: center;
+    padding:20px 8px 3px 8px;
+    /* border:2px solid rgb(0, 0, 0); */
+    border-radius: 10px;
+    /* box-shadow: 2px 4px 10px rgb(0, 0, 0),-2px -4px 10px rgb(0, 0, 0); */
+}
+
+.aboutus1 .aboutus1content h3{
+    margin-bottom: 6px;
+    background-color: rgba(255, 230, 7, 0.966);
+    width:200px;
+    /* align-items: center; */
+    text-align: center;
+    margin-left:90px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    box-shadow: 2px 4px 10px rgb(0, 0, 0),-2px -4px 10px rgb(0, 0, 0);
+}
+
+.aboutus1 .aboutus1content p{
+    margin-top:10px;
+    font-family: sans-serif;
+    font-size: 1.11rem;
+}
+
+.aboutus2{
+    /* background-color: rgb(250, 32, 32); */
+    height:280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 10px;
+}
+
+.aboutus2 .aboutcontent {
+    background-color: rgb(185, 217, 230);
+    text-align: center;
+    height:fit-content;
+    width:34rem;
+    padding:20px;
+    border-radius: 10px;
+    /* box-shadow: 2px 4px 10px rgb(0, 0, 0),-2px -4px 10px rgb(0, 0, 0); */
+}
+
+.aboutus2 .aboutcontent h2{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(7, 247, 255);
+    font-family: sans-serif;
+    box-shadow: 2px 4px 10px rgb(0, 0, 0),-2px -4px 10px rgb(0, 0, 0);
+}
+.aboutus2 .aboutcontent p{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.aboutus2 .imageaboutus2 img{
+    width: 420px;
+    height: 200px;
+    /* background-color: rgb(209, 26, 26); 
+    */
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 2px 4px 30px rgb(11, 85, 95),-2px -4px 30px rgb(0, 0, 0);
+}
+
+.ourteams{
+    background-image: url('pic/aboutus/galleryall2.jpg');
+    width:96%;
+    height: 400px;
+    background-size: cover;
+    margin: 15px auto;
+    background-position: center;
+    /* text-align: center; */
+    display: flex;
+    /* justify-content:space-between; */
+    /* border: 2px solid  black; */
+    /* align-items: center; */
+    /* padding: 5px 2px; */
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgb(0, 0, 0),-2px -4px 10px rgb(0, 0, 0);
+}
+
+.ourteams h1{
+    width:30%;
+    background-color: rgba(0, 0, 0, 0.623);
+    padding-top: 150px;
+    /* border: 2px solid  rgb(255, 0, 0); */
+    color: whitesmoke;
+    text-align: center;
+    /* border-radius: 20px; */
+    border-radius: 20px 3px 6px 20px;
+    text-shadow: 5px 2px 10px rgb(194, 13, 13);
+}
+.ourteams .parali{
+    width:70%;
+    height:fit-content;
+    /* text-align: center; */
+    padding: 20px 5px;
+    /* font-size: 12px; */
+   background-color: rgba(11, 11, 187, 0.281);
+   background-blend-mode: multiply;
+    /* border: 2px solid  rgb(240, 226, 226); */
+    word-spacing: 20px;
+    line-height: 24px;
+    color: rgba(255, 230, 8, 0.986);
+    font-family:cursive;
+    font-size: 1.6rem;
+    /* display:flex; */
+    text-shadow: 2px 4px 5px rgb(12, 8, 8);
+    border-radius: 4px 20px 20px 20px;
+}
+.ourteams .parali li{
+    color: rgb(0, 0, 0);
+    list-style-type:none;
+    /* display: block; */
+    /* float: left; */
+    background-color: rgba(255, 255, 255, 0.795);
+    width: fit-content;
+padding: 3px 5px;
+    /* border: 2px solid red; */
+    margin:20px 30px;
+    font-size:1.7rem;
+    font-family:cursive;
+    /* text-shadow: 2px 4px 5px rgb(0, 0, 0); */
+   text-shadow: none;
+   border-radius:9px;
+   box-shadow: 2px 4px 10px rgb(0, 0, 0),-2px -4px 10px rgb(0, 0, 0);
+}

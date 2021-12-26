@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.scroll{
+    /* background-color: rgb(224, 34, 34); */
+    display:inline-block;
+    width:fit-content;
+   /* height: fit-content; */
+    position:fixed;
+    /* right:-90px; */
+    top:28rem;
+    left:62.5rem;
+
+}
+.scroll button{
+    background-color: rgba(202, 0, 0, 0.76);
+    width: fit-content;
+    height:fit-content;
+    font-size:30px;
+    padding:7px 10px 7px 10px;
+    border-radius:4rem;
+    transform: rotate(90deg);
+    color: aliceblue;
+    border:2px solid red;
+    text-align: center;
+    /* box-shadow: 6px 5px 20px rgba(255, 0, 0, 0.677), -5px -5px 20px rgba(255, 0, 0, 0.677); */
+}
+.scroll button:hover{
+box-shadow: 7px 2px 20px rgba(19, 3, 238, 0.781), -2px -2px 20px rgba(255, 0, 0, 0.781);
+}
+
+@media screen and (max-width:500px){
+    .scroll{
+        /* background-color: rgb(224, 34, 34); */
+        display:inline-block;
+        width:fit-content;
+       /* height: fit-content; */
+        position:fixed;
+        /* right:-90px; */
+        top:28rem;
+        left:28rem;
+    
+    }
+}
